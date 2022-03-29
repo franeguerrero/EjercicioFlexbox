@@ -1,0 +1,97 @@
+#encabezado{
+    display: flex;
+    background-color: #ccc;
+    width: auto;
+    height: 75px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+#encabezado p{
+    margin: 10px;
+    flex-basis: 40%;
+}
+#encabezado div{
+    padding: 5px;
+    margin: 3px 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+}
+#menu1{
+    background-color: #294;
+    flex-basis: 50%;
+}
+#logo{
+    background-color: #126;
+    flex-basis: 30%;
+}
+#menu2{
+    background-color: #600;
+    flex-basis: 60%;
+}
+#sup{
+    display: flex;
+    justify-content: space-between;
+}
+#sup div{
+    width: 33%;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+#izquierda{
+    background-color: #333;
+}
+#centro{
+    background-color: #099;
+}
+#derecha{
+    background-color: #f82;
+}
+#inf{
+    display: flex;
+    justify-content: space-between;
+}
+#inf div{
+    
+    height: 200px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+#izquierda2{
+    width: 66%;
+    background-color: #030;
+}
+#derecha2{
+    width: 30%;
+    background-color: #830;
+}
+#pie{
+    display: flex;
+    background-color: #0cc;
+    width: auto;
+    height: 100px;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 5px;
+    align-items: center;
+}
+#pie p{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+#elemento{
+    background-color: #126;
+    color: #fff;
+    padding: 5px;
+    margin: 20px;
+}
